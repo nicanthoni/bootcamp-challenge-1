@@ -66,6 +66,7 @@ p {
     margin-left: 25px;
 }
 /* Updated to ID, as there is only one instance where float right is being used */
+/* consolidated 3 sections within main tag*/
 .content-section {
     width: 75%;
     display: inline-block;
@@ -123,7 +124,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+ /* included footer parent element to avoid issues when adding additional h2s */
 footer h2 {
     font-size: 20px;
 }
