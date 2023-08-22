@@ -21,11 +21,11 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
+#seo {
     color: #d9dcd6;
 }
-
-header section {
+/* Updated this from class to ID, since it is so specific */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
