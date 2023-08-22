@@ -33,10 +33,6 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -65,11 +61,11 @@ p {
     margin-right: 25px;
 }
 
-.float-right {
+#float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Updated to ID, as there is only one instance where float right is being used */
 .content-section {
     width: 75%;
     display: inline-block;
@@ -128,6 +124,6 @@ footer {
     text-align: center;
 }
 
-h2 {
+footer h2 {
     font-size: 20px;
 }
