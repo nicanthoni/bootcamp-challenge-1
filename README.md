@@ -21,6 +21,4 @@ HTML & CSS.
 To contribute, suggestions / changes may be made to improve the overall accessibility of this website, while not changing any visual aspects.
 
 ## License
-MIT
-
-MIT © [nicanthoni]()
+None
