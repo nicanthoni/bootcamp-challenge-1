@@ -16,9 +16,6 @@ Image (2 of 2)
 ## Tech/framework used
 HTML & CSS.
 
-## Features
-How I cleaned it up 
-
 ## Contribute
 
 To contribute, suggestions / changes may be made to improve the overall accessibility of this website, while not changing any visual aspects.
