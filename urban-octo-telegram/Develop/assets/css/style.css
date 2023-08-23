@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Updated class title, to match updates made in HTML */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ h1 {
 #seo {
     color: #d9dcd6;
 }
-/* Updated this from class to ID, since it is so specific */
+/* Updated 'seo' from class to ID, since it is so specific */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -65,14 +65,18 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* Updated to ID, as there is only one instance where float right is being used */
-/* consolidated 3 sections within main tag*/
+/* Updated float-right to ID, as there is only one instance where float right is being used */
+/* consolidated 3 sections (.content sections) within main tag*/
+/* updated .content class to 'content-section to better depict it to holding pieces of content */
+/* updated each section to hold a class of .content, to better depict pieces of content from within the content section */
 .content-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* consolidated 3 sections (.benefits) within aside tag*/
+/* updated .benefits class to 'benefit-section to better depict it to holding different benefits */
+/* updated each section to hold a class of .benefits, to better depict different benefits from within the benefit section */
 .benefits-section {
     margin-right: 20px;
     padding: 20px;
@@ -83,7 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Updated class title, to match updates made in HTML */
 .benefits  {
     margin-bottom: 32px;
     color: #ffffff;
@@ -93,13 +97,13 @@ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Updated class title, to match updates made in HTML */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Updated class title, to match updates made in HTML */
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,19 +116,19 @@ h3 {
 img {
     max-height: 200px;
 }
-
+/* Updated class title, to match updates made in HTML */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Updated class title, to match updates made in HTML */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
- /* included footer parent element to avoid issues when adding additional h2s */
+ /* included 'footer' parent element as part of selector to avoid issues when adding additional h2s */
 footer h2 {
     font-size: 20px;
 }
